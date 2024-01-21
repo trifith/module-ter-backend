@@ -1,0 +1,10 @@
+formatter: markdown table
+header-from: docs.md
+settings:
+  html: false
+  anchor: false
+output:
+  file: README.md
+  mode: replace
+  template: |-
+    {{ .Content }}
